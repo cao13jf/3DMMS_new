@@ -12,11 +12,11 @@ This program implements the 3DMMS algorithm proposed in [*3DMMS: Robust 3D Membr
 
   ```
   3DMMS is used to segment C.elegans embryo imaged with fluorescent microscopy
-  3DMMS/
-  	|--data/: nucleus information file from AceTree and raw membrane images
-  		|--aceNuc/
-  			|--170704plc1p2/: nucleus location file (refer to AceTree)
-  			|--colorMap.mat: color map used for labelling result (*_rgb.tif)
+  3DMMS/:
+    |--data/: nucleus information file from AceTree and raw membrane images
+  	  |--aceNuc/
+  		  |--170704plc1p2/: nucleus location file (refer to AceTree)
+  		  |--colorMap.mat: color map used for labelling result (*_rgb.tif)
   		|--membrane/170704plc1p2/: raw membrane image 
   	|--Evaluation/: data for experimental evaluation in BMC Bio 3DMMS paper
   	|--getNucFromacetree/: codes for get nucleus location in *.csv file
@@ -29,8 +29,8 @@ This program implements the 3DMMS algorithm proposed in [*3DMMS: Robust 3D Membr
   			|--merged_memebraen/: *.mat is prefered. *.tif is used for visualization.
   			|--mergedResults/: stastial results of the final segmentations.
   	|--TiffSave/: library for saving tif images.
-      |--tinevez-matlab-tree-3d13d15/: library for constructing cell division tree.
-      |--**      
+    |--tinevez-matlab-tree-3d13d15/: library for constructing cell division tree.
+    |--**      
   ```
 
 - **Parameters settting**
