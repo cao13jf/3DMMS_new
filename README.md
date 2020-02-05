@@ -33,16 +33,16 @@ This program implements the 3DMMS algorithm proposed in [*3DMMS: Robust 3D Membr
   ```
 * **Parameters settting**
 
-  If you want to analyze your own dataset, you might need to change parameters according to your own dataset. `I3DMMS.m` function includs all the parameters you need to tune. They are listed as following:
+  If you want to analyze your own dataset, you might need to change parameters according to your own dataset. `I3DMMS.m` function includes all the parameters you need to tune. They are listed as follows:
 
-| **Parameter name** | **Meaning**                            |
-| -----------------: | :------------------------------------- |
-|          data_name | membrane image dataset name            |
-|           max_Time | maximal time point of the embryo stack |
-|           prescale | downsample ratio on each slice         |
-|        reduceRatio | downsample ratio on the whole embryo   |
-|      xy_resolution | resolution on each slice               |
-|       z_resolution | distance of each slices                |
+  | **Parameter name** | **Meaning**                            |
+  | -----------------: | :------------------------------------- |
+  |          data_name | membrane image dataset name            |
+  |           max_Time | maximal time point of the embryo stack |
+  |           prescale | downsample ratio on each slice         |
+  |        reduceRatio | downsample ratio on the whole embryo   |
+  |      xy_resolution | resolution on each slice               |
+  |       z_resolution | distance of each slice |
 
 * **Experiment**
 
@@ -54,7 +54,7 @@ This program implements the 3DMMS algorithm proposed in [*3DMMS: Robust 3D Membr
 * **Note**
 
   1. [ImageJ](https://fiji.sc/) can be used to view `*.tif` files, `Plugins-->Process-->Show Color Surfaces`.
-  2. Nulcues location file is necessary which can be obtained by using [AceTree and StarryNite](https://www.nature.com/articles/nprot.2006.222).
+  2. Nucleus location file `CD**.csv` is necessary which can be obtained by using [AceTree and StarryNite](https://www.nature.com/articles/nprot.2006.222).
   3. 3DMMS aims to segment cells in 3D, where cells closely contact to each other. Raw membrane stack images can come from *C. elegans*,  *Arabidopsis thaliana* and *Drosophila*, but not individual cells, like cells in the blood. 
 
 ## **Correspondence**
