@@ -53,9 +53,9 @@ This program implements the 3DMMS algorithm proposed in [*3DMMS: Robust 3D Membr
 
 * **Note**
 
-1. [ImageJ](https://fiji.sc/) can be used to view `*.tif` files, `Plugins-->Process-->Show Color Surfaces`.
-2. Nulcues location file is necessary which can be obtained by using [AceTree and StarryNite](https://www.nature.com/articles/nprot.2006.222).
-3. 3DMMS aims to segment cells in 3D, where cells closely contact to each other. Raw membrane stack images can come from *C. elegans*,  *Arabidopsis thaliana* and *Drosophila*, but not individual cells, like cells in the blood. 
+  1. [ImageJ](https://fiji.sc/) can be used to view `*.tif` files, `Plugins-->Process-->Show Color Surfaces`.
+  2. Nulcues location file is necessary which can be obtained by using [AceTree and StarryNite](https://www.nature.com/articles/nprot.2006.222).
+  3. 3DMMS aims to segment cells in 3D, where cells closely contact to each other. Raw membrane stack images can come from *C. elegans*,  *Arabidopsis thaliana* and *Drosophila*, but not individual cells, like cells in the blood. 
 
 ## **Correspondence**
 Please contact to jfcao3-c@my.cityu.edu.hk
