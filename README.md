@@ -56,6 +56,7 @@ This program implements the 3DMMS algorithm proposed in [*3DMMS: Robust 3D Membr
   1. [ImageJ](https://fiji.sc/) can be used to view `*.tif` files, `Plugins-->Process-->Show Color Surfaces`.
   2. Nucleus location file `CD**.csv` is necessary which can be obtained by using [AceTree and StarryNite](https://www.nature.com/articles/nprot.2006.222).
   3. 3DMMS aims to segment cells in 3D, where cells closely contact to each other. Raw membrane stack images can come from *C. elegans*,  *Arabidopsis thaliana* and *Drosophila*, but not individual cells, like cells in the blood. 
+  4. **The dataset is not included in this repository**. To run the code with the datset, you can either download the dataset from [figshare](https://doi.org/10.6084/m9.figshare.7781777.v1) or download the [zip file](https://portland-my.sharepoint.com/:f:/g/personal/jfcao3-c_ad_cityu_edu_hk/EopMewlIQeNHuTWgBBhUUdkBc_ieRD7spDk03k44TjjYIw?e=wv8cv5)(recommended).
 
 ## **Correspondence**
 Please contact to jfcao3-c@my.cityu.edu.hk
